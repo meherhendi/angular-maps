@@ -286,7 +286,7 @@ export class BingClusterLayer implements Layer {
                 const i: number = p.indexOf(entity.NativePrimitve);
                 if (i > -1) {
                     p.splice(i, 1);
-                    this._layer.setPushpins(p);
+                    // this._layer.setPushpins(p);
                 }
             }
             this._markerLookup.delete(entity.NativePrimitve);
